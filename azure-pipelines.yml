@@ -1,0 +1,22 @@
+resources:
+- repo: self
+queue:
+  name: Hosted Ubuntu 1604
+steps:
+
+- task: UseRubyVersion@0
+  displayName: 'Use Ruby >= 2.4'
+
+- script: 'gem install bundler' 
+  displayName: 'Install bundler'
+
+- script: 'cd src; bundle install' 
+  displayName: 'Install Jekyll and Dependencies'
+
+- script: 'cd src; bundle exec jekyll build -d $(Build.ArtifactStagingDirectory)' 
+  displayName: 'Build Jekyll Static Site'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: _site'
+  inputs:
+    ArtifactName: '_site'
