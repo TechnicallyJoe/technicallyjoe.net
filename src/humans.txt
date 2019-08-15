@@ -5,16 +5,21 @@ exclude: 'yes'
 ---
 
 /* TEAM */
-Developer & Designer: Josh Gerdes
-Twitter: @joshgerdes
-Site: http://joshgerdes.com
-Location: Minneapolis, MN, USA
-						
+    Developer & Owner: Jonathan Østrup
+    Site: Technicallyjoe.Net
+    Location: Copenhagen, Denmark
+
+    Developer & Designer: Josh Gerdes
+    Twitter: @joshgerdes
+    Site: http://joshgerdes.com
+    Location: Minneapolis, MN, USA
+                            
 /* THANKS */
-Name: Dale Anthony
+    Name: Dale Anthony
 
 /* SITE */
-Last update: {{ site.time | date: "%Y/%m/%d" }}
-Standards: HTML5, CSS3
-Components: Jekyll
-Software: Sublime Text, Photoshop
+    Last update: {{ site.time | date: "%Y/%m/%d" }}
+    Language: English
+    Standards: HTML5, CSS3
+    Components: Jekyll
+    Software: VSCode, Netlify, Github
