@@ -5,7 +5,7 @@ exclude: 'yes'
 ---
 
 /* TEAM */
-    Developer & Owner: Jonathan Østrup
+    Owner & Blogger: Jonathan Østrup
     Site: Technicallyjoe.Net
     Location: Copenhagen, Denmark
 
