@@ -1,6 +1,6 @@
 # Site settings
-title: Technicallyjoe
-description: 'Description'
+title: TechnicallyJoe
+description: 'Windows Systems Engineer with a flair for the DevOps initiative and a love for automating everything'
 url: 'https://technicallyjoe.netlify.com/'
 baseurl: ''
 google_analytics: 'UA-105267729-1'
@@ -28,8 +28,8 @@ markdown: kramdown
 highlighter: rouge
 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 kramdown:
   # use Github Flavored Markdown
