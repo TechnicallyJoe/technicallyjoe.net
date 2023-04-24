@@ -13,12 +13,12 @@ lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
 emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+subtitle = "Systems Engineer with a flair for the DevOps initiative and a love for automating everything"
 
 [sidebar.avatar]
 enabled = true
-local = true
-src = "img/avatar.png"
+local = false
+src = "https://avatars.githubusercontent.com/u/7877957?v=4"
 
 [article]
 math = false
@@ -74,7 +74,7 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = true
+enabled = false
 provider = "disqus"
 
 [comments.disqusjs]
