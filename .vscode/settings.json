@@ -1,0 +1,7 @@
+{
+  "grammarly.files.include": [
+    "**/*.md"
+  ],
+  "grammarly.config.suggestions.ConjunctionAtStartOfSentence": true,
+  "grammarly.config.suggestions.OxfordComma": true
+}
